@@ -1,0 +1,26 @@
+{
+  "name": "i1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "author": "Philip Van Raalte",
+  "license": "ISC",
+  "dependencies": {
+    "inferno": "^3.10.1",
+    "inferno-component": "^3.10.1",
+    "inferno-router": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-inferno": "^3.4.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.1"
+  }
+}
